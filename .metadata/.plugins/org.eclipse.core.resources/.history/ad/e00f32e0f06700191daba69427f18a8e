@@ -1,0 +1,20 @@
+package com.emp.dao;
+
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Repository;
+
+import com.emp.model.TDSMaster;
+
+@Component("tdsDao")
+@Repository
+@ComponentScan("com.emp")
+public class TDSDaoImpl implements TDSDao{
+
+	@Override
+	public TDSMaster getById(int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

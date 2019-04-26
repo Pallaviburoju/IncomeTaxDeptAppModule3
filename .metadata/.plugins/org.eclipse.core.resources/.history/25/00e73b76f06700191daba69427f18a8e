@@ -1,0 +1,19 @@
+package com.emp.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.emp.dao.TDSDao;
+import com.emp.model.TDSMaster;
+
+public class TDSServiceImpl implements TDSService{
+
+	@Autowired
+	TDSDao tdsDao;
+	
+	@Override
+	public TDSMaster getById(int id) {
+		// TODO Auto-generated method stub
+		return tdsDao.getById(id);
+	}
+
+}

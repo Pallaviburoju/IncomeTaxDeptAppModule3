@@ -1,0 +1,5 @@
+package com.emp.userException;
+
+public class NoUserFoundException {
+
+}
